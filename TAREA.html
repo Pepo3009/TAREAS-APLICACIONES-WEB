@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <center> <title>COMPLETAR FORMULARIO</title>
+</head>
+<body>
+<link rel="stylesheet" href="style.css">
+  <section class="form-register">
+    <h2>Formulario Registro</h2>
+   <center>
+    <P>NOMBRES: <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre"></P>
+    <P>APELLIDOS:<input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido"></P>
+    <P>CONTRASEÑA:<input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña"></P>
+    <P>EMAIL:<input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo"></P>
+    <P>NACIONALIDAD:<input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su nacionalidad"></P>
+    <P>CIUDAD<input class="controls" type="text" name="Ciudad" id="nombres" placeholder="Ingrese su Ciudad"></P>
+    <P>DIRECCION:<input class="controls" type="text" name="Ciudad" id="nombres" placeholder="Ingrese su Direccion"></P>
+    <p>FECHA:<input class="controls" type="date" name="Fecha"></p>
+    <p>SEXO <input type="radio" name="hm" value="h"> Hombre <input type="radio" name="hm" value="m"> Mujer</p>
+    </body>
+    <p><a href="#">¿Ya tengo Cuenta?</a></p>
+    <body><center>
+        <input type="submit" value="Registrar" onclick="abrir();" />
+         
+        <script type="text/javascript">
+        function abrir()
+        {
+         var w=window.open("","","height=300,width=300,menubar=no,toolbar=no");
+         w.document.open();
+         w.document.write("<h2>SUS DATOS FUERON ENVIADOS SATISFACTORIAMENTE </h2>");
+         w.document.close();
+        }
+        </script>
+        </body></center>
+
+  </section>
+</body>
+</html>
